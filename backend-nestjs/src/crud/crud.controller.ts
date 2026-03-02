@@ -14,7 +14,6 @@ import {
 import { CreateUserDTO } from './dto/createUser.dto';
 import { CrudService } from './crud.service';
 import { error } from 'console';
-import { Public } from 'src/auth/decorator/public.decorator';
 import { AdminOnly } from 'src/auth/decorator/roles.decorator';
 
 @Controller('/crud')
